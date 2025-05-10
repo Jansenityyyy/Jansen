@@ -112,6 +112,38 @@ body{
 .green-button:hover {
     background-color: #005f73;
 }
+@media (max-width: 768px) {
+    .dashboard-row {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .dashboard-column {
+        width: 100%;
+    }
+
+    .green-button {
+        width: 100%;
+    }
+
+    #add-product-form button,
+    #coupon-list li button {
+        width: 100%;
+    }
+
+    #coupon-list li {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    #coupon-list li button {
+        margin-top: 10px;
+    }
+
+    .inquiry-block input {
+        width: 100%;
+    }
+}
 
 /*--------------------------------END OF SELLER SITE------------------------*/
 
